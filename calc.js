@@ -25,7 +25,12 @@ reader.question("What would you like to calculate?", function(input){
 	
 	// subtraction commit
 	if (mathSymbol === "-"){
-		console.log(num1 - num2)
+		console.log(num1 - num2);
+	}
+
+	// multiplication commit
+	if (mathSymbol === "*"){
+		console.log(num1 * num2);
 	}
 	// This line closes the connection to the command line interface.
 	reader.close();
