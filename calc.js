@@ -26,17 +26,22 @@ reader.question("What would you like to calculate?", function(input){
 	// subtraction commit
 	if (mathSymbol === "-"){
 		console.log(num1 - num2);
-	}
+	};
 
 	// multiplication commit
 	if (mathSymbol === "*"){
 		console.log(num1 * num2);
-	}
+	};
 
 	// division commit
 	if (mathSymbol === "/"){
 		console.log(num1 / num2);
-	}
+	};
+
+	// square root commit
+	if (mathSymbol === "&"){
+		console.log(Math.sqrt(num1));
+	};
 	// This line closes the connection to the command line interface.
 	reader.close();
 
